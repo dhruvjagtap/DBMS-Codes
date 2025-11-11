@@ -1,0 +1,9 @@
+● javac ArithmeticOperations.java
+
+● javac -h . ArithmeticOperations.java
+
+● gcc -I /lib/jvm/java-11-openjdk-amd64/include -I /lib/jvm/java-11-
+openjdk-amd64/include/linux -shared -o libArithmeticOperations.so
+ArithmeticOperations.c
+
+● java -Djava.library.path=. ArithmeticOperations
